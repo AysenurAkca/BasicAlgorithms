@@ -43,12 +43,19 @@
 
 //5. Find Max
 
-// Use Math.max
-// In order to pass in the array to the max method, use rest
-//log the result to the console
+// Define a max variable and put the first item
+// One by one compare max and items of array (foor loop)
+// If the current item greater than max variable, we should put that value in the variable
+// At the end of the loop, log the max variable
 
 // const nums = [1,4,2,12,-5];
-// console.log(Math.max(...nums));
+// let max = nums[0]
+// for (let i = 0; i < nums.length; i++) {
+//     if (nums[i] > max) { 
+//         max = nums[i]; 
+//     }
+// }
+// console.log(max);
 
 // 6. Get Average
 
